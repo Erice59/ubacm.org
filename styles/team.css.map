@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "team.css",
+	"sources": [
+		"team.scss",
+		"../variables.scss"
+	],
+	"sourcesContent": [
+		"@import '../variables';\n\n.page__team {\n  .team_member {\n    > .name {\n      color: $accent-color;\n      font-weight: 800;\n    }\n\n    > .title {\n      font-weight: 800;\n    }\n\n    > img.profile {\n      border-radius: $rounded-corner;\n      width: 100%;\n      max-width: 200px;\n      height: auto;\n    }\n  }\n}",
+		"$accent-color: #005bbb;\n$secondary-color: #00a69c;\n$terniary-color: #e56a54;\n$white-color: #fff;\n$black-color: #000;\n$grey-color: #666;\n$muted-color: #e4e4e4;\n$dark-accent-color: #002f56;\n\n$hack-night-color: #ca2451;\n\n$spacing: 20px;\n$interactive-size: 44px;\n$rounded-corner: 6px;\n\n$nav-height: 50px;"
+	],
+	"names": [],
+	"mappings": "AAEA,AAEI,WAFO,CACT,YAAY,GACR,KAAK,CAAC;EACN,KAAK,ECLI,OAAO;EDMhB,WAAW,EAAE,GAAG;CACjB;;AALL,AAOI,WAPO,CACT,YAAY,GAMR,MAAM,CAAC;EACP,WAAW,EAAE,GAAG;CACjB;;AATL,AAWI,WAXO,CACT,YAAY,GAUR,GAAG,AAAA,QAAQ,CAAC;EACZ,aAAa,ECDF,GAAG;EDEd,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,IAAI;CACb"
+}

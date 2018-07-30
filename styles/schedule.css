@@ -1,0 +1,54 @@
+.page__schedule.past_events .event {
+  background: #666;
+  color: #e4e4e4;
+}
+
+.page__schedule.past_events .event > .copy > .name {
+  color: #fff !important;
+}
+
+.page__schedule .event {
+  align-items: center;
+  border: 1px solid #666;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.page__schedule .event > .icon {
+  text-align: center;
+  display: block;
+  width: 60px;
+}
+
+.page__schedule .event > .icon > img {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+
+.page__schedule .event > .copy {
+  margin-left: 20px;
+}
+
+.page__schedule .event > .copy > .name {
+  color: #005bbb;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.page__schedule .event > .copy > .name.hack_night {
+  color: #ca2451;
+}
+
+.page__schedule .event > .copy > .date {
+  font-weight: 800;
+}
+
+.page__schedule .event > .copy > .description {
+  min-height: 72px;
+}
+
+/*# sourceMappingURL=schedule.css.map */

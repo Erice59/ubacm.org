@@ -1,0 +1,18 @@
+.page__hack_night .sponsor_logo__title {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.page__hack_night .sponsor_logo__silver {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=hack_night.css.map */

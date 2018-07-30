@@ -1,0 +1,41 @@
+a {
+  display: inline;
+}
+
+.button {
+  align-items: center;
+  box-shadow: 0 1px 4px #666;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  filter: saturate(200%);
+}
+
+.button-primary, .button_primary {
+  color: white !important;
+  background-color: #00a69c !important;
+  border-bottom: 5px solid #fff !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+  border-top: 1px solid #fff !important;
+}
+
+.button_secondary {
+  color: white !important;
+  background-color: #e56a54 !important;
+  border-bottom: 5px solid #fff !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+  border-top: 1px solid #fff !important;
+}
+
+.icon-button > i.fab, .icon_button > i.fab {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=buttons.css.map */

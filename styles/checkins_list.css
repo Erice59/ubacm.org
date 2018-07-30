@@ -1,0 +1,37 @@
+.component__checkins_list .header {
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  width: 100%;
+  padding: 2.5px;
+}
+
+.component__checkins_list .header > .name, .component__checkins_list .header .username, .component__checkins_list .header .score {
+  flex: 1 1 0;
+}
+
+.component__checkins_list .member_entry {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  width: 100%;
+  padding: 2.5px;
+}
+
+.component__checkins_list .member_entry:nth-child(2n) {
+  background: #fafafa;
+}
+
+.component__checkins_list .member_entry:hover {
+  background: #e4e4e4;
+}
+
+.component__checkins_list .member_entry > .name, .component__checkins_list .member_entry .username, .component__checkins_list .member_entry .score {
+  flex: 1 1 0;
+}
+
+.component__checkins_list .member_entry > .username {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=checkins_list.css.map */

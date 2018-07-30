@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "quick_updates.css",
+	"sources": [
+		"quick_updates.scss",
+		"../variables.scss"
+	],
+	"sourcesContent": [
+		"@import '../variables';\n\n.page__quick_updates {\n  > h1 {\n    color: $accent-color;\n    font-size: 22px;\n    font-weight: 800;\n    margin-bottom: 0;\n  }\n  \n  > h2 {\n    font-weight: 800;\n    font-size: 16px;\n    margin-bottom: 5px;\n  }\n  \n  > p {\n    margin-bottom: $spacing;\n  }\n}",
+		"$accent-color: #005bbb;\n$secondary-color: #00a69c;\n$terniary-color: #e56a54;\n$white-color: #fff;\n$black-color: #000;\n$grey-color: #666;\n$muted-color: #e4e4e4;\n$dark-accent-color: #002f56;\n\n$hack-night-color: #ca2451;\n\n$spacing: 20px;\n$interactive-size: 44px;\n$rounded-corner: 6px;\n\n$nav-height: 50px;"
+	],
+	"names": [],
+	"mappings": "AAEA,AACE,oBADkB,GAChB,EAAE,CAAC;EACH,KAAK,ECJM,OAAO;EDKlB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,CAAC;CACjB;;AANH,AAQE,oBARkB,GAQhB,EAAE,CAAC;EACH,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;CACnB;;AAZH,AAcE,oBAdkB,GAchB,CAAC,CAAC;EACF,aAAa,ECNP,IAAI;CDOX"
+}

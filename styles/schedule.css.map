@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "schedule.css",
+	"sources": [
+		"schedule.scss",
+		"../variables.scss"
+	],
+	"sourcesContent": [
+		"@import '../variables';\n\n.page__schedule {\n  &.past_events {\n    .event {\n      background: $grey-color;\n      color: $muted-color;\n\n      > .copy > .name {\n        color: $white-color !important;\n      }\n    }\n  }\n\n  .event {\n    align-items: center;\n    border: 1px solid $grey-color;\n    border-radius: $rounded-corner;\n    display: flex;\n    padding: $spacing / 2 $spacing;\n    position: relative;\n    margin-bottom: $spacing;\n\n    > .icon {\n      text-align: center;\n      display: block;\n      width: 60px;\n\n      > img {\n        display: inline-block;\n        height: auto;\n        width: 100%;\n      }\n    }\n    \n    > .copy {\n      margin-left: $spacing;\n\n      > .name {\n        color: $accent-color;\n        font-size: 24px;\n        font-weight: 800;\n        \n        &.hack_night {\n          color: $hack-night-color;\n        }\n      }\n  \n      > .date {\n        font-weight: 800;\n      }\n  \n      > .description {\n        min-height: 72px;\n      }\n    }\n  }\n}\n",
+		"$accent-color: #005bbb;\n$secondary-color: #00a69c;\n$terniary-color: #e56a54;\n$white-color: #fff;\n$black-color: #000;\n$grey-color: #666;\n$muted-color: #e4e4e4;\n$dark-accent-color: #002f56;\n\n$hack-night-color: #ca2451;\n\n$spacing: 20px;\n$interactive-size: 44px;\n$rounded-corner: 6px;\n\n$nav-height: 50px;"
+	],
+	"names": [],
+	"mappings": "AAEA,AAEI,eAFW,AACZ,YAAY,CACX,MAAM,CAAC;EACL,UAAU,ECAH,IAAI;EDCX,KAAK,ECAG,OAAO;CDKhB;;AATL,AAMM,eANS,AACZ,YAAY,CACX,MAAM,GAIF,KAAK,GAAG,KAAK,CAAC;EACd,KAAK,ECNC,IAAI,CDMU,UAAU;CAC/B;;AARP,AAYE,eAZa,CAYb,MAAM,CAAC;EACL,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,GAAG,CAAC,KAAK,CCXR,IAAI;EDYb,aAAa,ECJA,GAAG;EDKhB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAY,CCRf,IAAI;EDSV,QAAQ,EAAE,QAAQ;EAClB,aAAa,ECVP,IAAI;CD6CX;;AAtDH,AAqBI,eArBW,CAYb,MAAM,GASF,KAAK,CAAC;EACN,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;CAOZ;;AA/BL,AA0BM,eA1BS,CAYb,MAAM,GASF,KAAK,GAKH,GAAG,CAAC;EACJ,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACZ;;AA9BP,AAiCI,eAjCW,CAYb,MAAM,GAqBF,KAAK,CAAC;EACN,WAAW,ECzBP,IAAI;CD4CT;;AArDL,AAoCM,eApCS,CAYb,MAAM,GAqBF,KAAK,GAGH,KAAK,CAAC;EACN,KAAK,ECvCE,OAAO;EDwCd,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;CAKjB;;AA5CP,AAyCQ,eAzCO,CAYb,MAAM,GAqBF,KAAK,GAGH,KAAK,AAKJ,WAAW,CAAC;EACX,KAAK,ECnCI,OAAO;CDoCjB;;AA3CT,AA8CM,eA9CS,CAYb,MAAM,GAqBF,KAAK,GAaH,KAAK,CAAC;EACN,WAAW,EAAE,GAAG;CACjB;;AAhDP,AAkDM,eAlDS,CAYb,MAAM,GAqBF,KAAK,GAiBH,YAAY,CAAC;EACb,UAAU,EAAE,IAAI;CACjB"
+}

@@ -1,0 +1,18 @@
+.page__quick_updates > h1 {
+  color: #005bbb;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.page__quick_updates > h2 {
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.page__quick_updates > p {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=quick_updates.css.map */

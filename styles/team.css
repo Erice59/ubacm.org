@@ -1,0 +1,17 @@
+.page__team .team_member > .name {
+  color: #005bbb;
+  font-weight: 800;
+}
+
+.page__team .team_member > .title {
+  font-weight: 800;
+}
+
+.page__team .team_member > img.profile {
+  border-radius: 6px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+/*# sourceMappingURL=team.css.map */

@@ -1,0 +1,76 @@
+.partial__hero {
+  align-items: center;
+  background: url("/assets/davis_new.jpg");
+  background-size: cover;
+  display: flex;
+  height: 60vh;
+  padding-top: 50px;
+  min-height: 600px;
+}
+
+.partial__hero.hack_night {
+  background: url("/assets/hacknight/hero.jpg");
+  background-size: cover;
+}
+
+.partial__hero.hack_night .hero_copy > .logo {
+  height: auto;
+  margin-bottom: 20px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.partial__hero.hack_night .hero_copy > h1 {
+  font-size: 36px !important;
+  font-weight: bold !important;
+}
+
+.partial__hero.hackspace {
+  background: url("/assets/hackspace/hero.jpg");
+  background-size: cover;
+}
+
+.partial__hero.hackspace .logo {
+  height: auto;
+  margin-bottom: 20px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.partial__hero.senior_salutations {
+  background: linear-gradient(0deg, #7f3f98, #613f98);
+  background-size: cover;
+}
+
+.partial__hero.senior_salutations .hero_copy {
+  background: rgba(84, 74, 159, 0.8);
+  padding: 40px 0;
+}
+
+.partial__hero.senior_salutations .hero_copy > .logo {
+  height: auto;
+  margin-bottom: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.partial__hero.senior_salutations .hero_copy > h1 {
+  font-size: 36px !important;
+}
+
+.partial__hero > .container > .hero_copy {
+  color: #fff;
+  text-align: center;
+}
+
+.partial__hero > .container > .hero_copy > h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.partial__hero > .container > .hero_copy > h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=hero.css.map */

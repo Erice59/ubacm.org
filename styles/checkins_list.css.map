@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "checkins_list.css",
+	"sources": [
+		"checkins_list.scss",
+		"../variables.scss"
+	],
+	"sourcesContent": [
+		"@import '../variables';\n\n.component__checkins_list {\n  .header {\n    align-items: center;\n    display: flex;\n    font-weight: 700;\n    width: 100%;\n    padding: $spacing / 8;\n\n    > .name, .username, .score {\n      flex: 1 1 0;\n    }\n  }\n\n  .member_entry {\n    align-items: center;\n    border-radius: $rounded-corner;\n    display: flex;\n    width: 100%;\n    padding: $spacing / 8;\n\n    &:nth-child(2n) {\n      background: #fafafa;\n    }\n    \n    &:hover {\n      background: $muted-color;\n    }\n\n    > .name, .username, .score {\n      flex: 1 1 0;\n    }\n\n    > .username {\n      font-style: italic;\n    }\n  }\n}\n",
+		"$accent-color: #005bbb;\n$secondary-color: #00a69c;\n$terniary-color: #e56a54;\n$white-color: #fff;\n$black-color: #000;\n$grey-color: #666;\n$muted-color: #e4e4e4;\n$dark-accent-color: #002f56;\n\n$hack-night-color: #ca2451;\n\n$spacing: 20px;\n$interactive-size: 44px;\n$rounded-corner: 6px;\n\n$nav-height: 50px;"
+	],
+	"names": [],
+	"mappings": "AAEA,AACE,yBADuB,CACvB,OAAO,CAAC;EACN,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,KAAY;CAKtB;;AAXH,AAQI,yBARqB,CACvB,OAAO,GAOH,KAAK,EARX,yBAAyB,CACvB,OAAO,CAOI,SAAS,EARtB,yBAAyB,CACvB,OAAO,CAOe,MAAM,CAAC;EACzB,IAAI,EAAE,KAAK;CACZ;;AAVL,AAaE,yBAbuB,CAavB,aAAa,CAAC;EACZ,WAAW,EAAE,MAAM;EACnB,aAAa,ECJA,GAAG;EDKhB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,KAAY;CAiBtB;;AAnCH,AAoBI,yBApBqB,CAavB,aAAa,AAOV,UAAW,CAAA,EAAE,EAAE;EACd,UAAU,EAAE,OAAO;CACpB;;AAtBL,AAwBI,yBAxBqB,CAavB,aAAa,AAWV,MAAM,CAAC;EACN,UAAU,ECrBF,OAAO;CDsBhB;;AA1BL,AA4BI,yBA5BqB,CAavB,aAAa,GAeT,KAAK,EA5BX,yBAAyB,CAavB,aAAa,CAeF,SAAS,EA5BtB,yBAAyB,CAavB,aAAa,CAeS,MAAM,CAAC;EACzB,IAAI,EAAE,KAAK;CACZ;;AA9BL,AAgCI,yBAhCqB,CAavB,aAAa,GAmBT,SAAS,CAAC;EACV,UAAU,EAAE,MAAM;CACnB"
+}

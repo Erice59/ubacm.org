@@ -1,0 +1,32 @@
+.partial__footer {
+  background: #005bbb;
+  color: #e4e4e4;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.partial__footer a {
+  color: #fff;
+}
+
+.partial__footer .logos {
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.partial__footer .logos .logo {
+  display: inline-block;
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.partial__footer .logos .logo_wide {
+  display: inline-block;
+  width: 160px;
+  height: auto;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=footer.css.map */
